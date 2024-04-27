@@ -20,5 +20,5 @@ Check it out live [**here**](https://agile-learning-institute.github.io/member-m
     `npm install`  
 
 3. Spin it up  
-    `npm build`  
-    `npm start`  
+    `npm run build`  
+    `npm run start`  
