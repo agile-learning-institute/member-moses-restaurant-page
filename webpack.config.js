@@ -5,13 +5,11 @@ module.exports = {
   entry: "./src/index.js",
   output: {
     filename: "bundle.js",
-    // filename: "[name].bundle.js",
     path: path.resolve(__dirname, "dist"),
-    clean: true,
+    // clean: true,
   },
   mode: "development",
   devtool: 'inline-source-map',
-  // devtool: 'source-map',
   devServer: {
     static: './dist',
     compress: true,
